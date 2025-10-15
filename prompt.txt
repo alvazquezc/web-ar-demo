@@ -1,0 +1,10 @@
+Implementa un script en Python con las siguientes características:
+
+1. Usa OpenCV para abrir una imagen desde el disco (nombre: input.png).
+2. Convierte la imagen a escala de grises.
+3. Aplica un desenfoque gaussiano con un kernel de 5x5.
+4. Detecta bordes usando el algoritmo Canny con umbrales 100 y 200.
+5. Guarda el resultado en un archivo llamado edges.png en la misma carpeta.
+6. Incluye comentarios detallados en cada función y sigue el estilo PEP8.
+7. El código debe ser modular: crear funciones separadas para cargar imagen, procesarla, y guardarla.
+8. Añade un bloque `if __name__ == "__main__":` para ejecutar el flujo completo.
